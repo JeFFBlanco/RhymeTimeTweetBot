@@ -1,0 +1,76 @@
+{
+    "IntroPharases": [
+        {
+            "Phrase": "Once upon a time",
+            "TargetPartOfSpeech": "nope"
+        },
+        {
+            "Phrase": "There once was a [n]",
+            "TargetPartOfSpeech": "n"
+        },
+        {
+            "Phrase": "One day",
+            "TargetPartOfSpeech": "nope"
+        },
+        {
+            "Phrase": "Last night",
+            "TargetPartOfSpeech": "nope"
+        },
+        {
+            "Phrase": "Next week",
+            "TargetPartOfSpeech": "nope"
+        },
+        {
+            "Phrase": "There was a time when [n]",
+            "TargetPartOfSpeech": "n"
+        },
+        {
+            "Phrase": "Often times",
+            "TargetPartOfSpeech": "nope"
+        },
+        {
+            "Phrase": "Ocassionally",
+            "TargetPartOfSpeech": "nope"
+        },
+        {
+            "Phrase": "Every once and a while",
+            "TargetPartOfSpeech": "nope"
+        },
+        {
+            "Phrase": "Rarely does a [n]",
+            "TargetPartOfSpeech": "n"
+        },
+        {
+            "Phrase": "Sometimes I [v]",
+            "TargetPartOfSpeech": "v"
+        }
+    ],
+    "Transitions": [
+        "and that is why",
+        "as such",
+        "but it will",
+        "and then",
+        "but, that's okay, because",
+        "so",
+        "consequently",
+    ],
+    "Verses": [
+        "[noun] loved to [adv] [v]",
+        "[noun] loved to [v]",
+        "[noun] would always [adv] [v]",
+        "[noun] would [adj] [v]",
+        "[noun] would sometimes [adv] [v]",
+        "I loved to [adj] [v]",
+        "I loved to [v]",
+        "I would always [adj] [v]",
+        "I would [adj] [v]",
+        "I would sometimes [adv] [v]",
+        "everyone loved to [adv] [v]",
+        "everyone loved to [v]",
+        "everyone would always [adv] [v]",
+        "everyone would [adv] [v]",
+        "everyone would sometimes [adv] [v]",
+        "They really ought to [v]",
+        "They probably ought to go to [n]"
+    ]
+}
