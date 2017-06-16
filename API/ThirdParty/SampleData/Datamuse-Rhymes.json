@@ -1,0 +1,701 @@
+[
+    {
+        "word": "bond",
+        "score": 2847,
+        "numSyllables": 1,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "beyond",
+        "score": 1471,
+        "numSyllables": 2,
+        "tags": [
+            "adv"
+        ]
+    },
+    {
+        "word": "correspond",
+        "score": 1013,
+        "numSyllables": 3,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "abscond",
+        "score": 1012,
+        "numSyllables": 2,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "fond",
+        "score": 996,
+        "numSyllables": 1,
+        "tags": [
+            "adj"
+        ]
+    },
+    {
+        "word": "respond",
+        "score": 935,
+        "numSyllables": 2,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "blonde",
+        "score": 793,
+        "numSyllables": 1,
+        "tags": [
+            "adj",
+            "n"
+        ]
+    },
+    {
+        "word": "blond",
+        "score": 641,
+        "numSyllables": 1,
+        "tags": [
+            "adj",
+            "n"
+        ]
+    },
+    {
+        "word": "frond",
+        "score": 553,
+        "numSyllables": 1,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "wand",
+        "score": 539,
+        "numSyllables": 1,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "monde",
+        "score": 378,
+        "numSyllables": 1,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "donned",
+        "score": 332,
+        "numSyllables": 1,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "sonde",
+        "score": 232,
+        "numSyllables": 1,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "conned",
+        "score": 207,
+        "numSyllables": 1,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "spawned",
+        "score": 205,
+        "numSyllables": 1,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "beau monde",
+        "score": 191,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "durand",
+        "score": 153,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "bail bond",
+        "score": 135,
+        "numSyllables": 2,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "dawned",
+        "score": 134,
+        "numSyllables": 1,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "awned",
+        "score": 132,
+        "numSyllables": 1,
+        "tags": [
+            "adj"
+        ]
+    },
+    {
+        "word": "fronde",
+        "score": 124,
+        "numSyllables": 1,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "conde",
+        "score": 110,
+        "numSyllables": 1,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "maund",
+        "score": 105,
+        "numSyllables": 1,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "yawned",
+        "score": 105,
+        "numSyllables": 1,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "gironde",
+        "score": 102,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "armand",
+        "score": 101,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "gond",
+        "score": 98,
+        "numSyllables": 1,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "ronde",
+        "score": 93,
+        "numSyllables": 1,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "fonde",
+        "score": 87,
+        "numSyllables": 1
+    },
+    {
+        "word": "strond",
+        "score": 85,
+        "numSyllables": 1,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "swanned",
+        "score": 84,
+        "numSyllables": 1,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "government bond",
+        "score": 82,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "surety bond",
+        "score": 74,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "corporate bond",
+        "score": 73,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "performance bond",
+        "score": 70,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "laund",
+        "score": 69,
+        "numSyllables": 1,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "junk bond",
+        "score": 67,
+        "numSyllables": 2,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "pawned",
+        "score": 66,
+        "numSyllables": 1,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "chemical bond",
+        "score": 63,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "ionic bond",
+        "score": 62,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "mitterrand",
+        "score": 60,
+        "numSyllables": 3,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "fawned",
+        "score": 56,
+        "numSyllables": 1,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "wanned",
+        "score": 54,
+        "numSyllables": 1,
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "word": "municipal bond",
+        "score": 53,
+        "numSyllables": 5,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "hydrogen bond",
+        "score": 51,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "shonde",
+        "score": 51,
+        "numSyllables": 1
+    },
+    {
+        "word": "wond",
+        "score": 50,
+        "numSyllables": 1,
+        "tags": [
+            "n",
+            "adj"
+        ]
+    },
+    {
+        "word": "au fond",
+        "score": 49,
+        "numSyllables": 2,
+        "tags": [
+            "adv"
+        ]
+    },
+    {
+        "word": "bearer bond",
+        "score": 49,
+        "numSyllables": 3,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "convertible bond",
+        "score": 45,
+        "numSyllables": 5,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "metallic bond",
+        "score": 40,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "bonde",
+        "score": 37,
+        "numSyllables": 1,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "zero coupon bond",
+        "score": 37,
+        "numSyllables": 5,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "debenture bond",
+        "score": 36,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "stond",
+        "score": 36,
+        "numSyllables": 1,
+        "tags": [
+            "v",
+            "n"
+        ]
+    },
+    {
+        "word": "registered bond",
+        "score": 35,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "coordinate bond",
+        "score": 34,
+        "numSyllables": 5,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "grond",
+        "score": 34,
+        "numSyllables": 1,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "secured bond",
+        "score": 34,
+        "numSyllables": 3,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "brawned",
+        "score": 33,
+        "numSyllables": 1
+    },
+    {
+        "word": "treasury bond",
+        "score": 33,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "brond",
+        "score": 31,
+        "numSyllables": 1,
+        "tags": [
+            "adj",
+            "n"
+        ]
+    },
+    {
+        "word": "revenue bond",
+        "score": 30,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "electrostatic bond",
+        "score": 29,
+        "numSyllables": 6,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "noncallable bond",
+        "score": 26,
+        "numSyllables": 5,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "savings bond",
+        "score": 26,
+        "numSyllables": 3,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "eurobond",
+        "score": 25,
+        "numSyllables": 3,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "utility bond",
+        "score": 25,
+        "numSyllables": 5,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "demond",
+        "score": 24,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "utility revenue bond",
+        "score": 23,
+        "numSyllables": 8,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "unsecured bond",
+        "score": 20,
+        "numSyllables": 4,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "coupon bond",
+        "score": 19,
+        "numSyllables": 3,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "letter bond",
+        "score": 15,
+        "numSyllables": 3,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "lamond",
+        "score": 11,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "mitterand",
+        "score": 11,
+        "numSyllables": 3,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "leblond",
+        "score": 10,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "allmond",
+        "score": 8,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "lafond",
+        "score": 5,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "braund",
+        "score": 4,
+        "numSyllables": 1,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "donde",
+        "score": 2,
+        "numSyllables": 1
+    },
+    {
+        "word": "dumond",
+        "score": 2,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "fernand",
+        "score": 2,
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "gaumond",
+        "numSyllables": 2,
+        "tags": [
+            "n"
+        ]
+    },
+    {
+        "word": "guimond",
+        "numSyllables": 2,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "jeanbertrand",
+        "numSyllables": 3,
+        "tags": [
+            "n",
+            "prop"
+        ]
+    },
+    {
+        "word": "junkbond",
+        "numSyllables": 2,
+        "tags": [
+            "n"
+        ]
+    }
+]
