@@ -12,7 +12,7 @@ module.exports = {
 			md: 'p'
 		})
 		.then((json) => {
-			console.log(json);
+			// console.log(json);
 
 			callback(json);
 		});

@@ -9,7 +9,7 @@ module.exports = {
 
 		webdict('dictionary', word)
 			.then(resp => {
-				console.log(resp);
+				// console.log(resp);
 				callback(resp);
 			});
 	}
