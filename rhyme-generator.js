@@ -7,7 +7,7 @@ const wordApi = require('./API/word-api.js');
 
 
 // TODO: command line argument for word
-var word = 'flower';
+var word = 'light';
 
 getPhraseTemplate(function(){});
 
