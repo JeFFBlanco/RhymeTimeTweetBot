@@ -3,11 +3,12 @@ const util = require('util');
 const jsonFile = require('json-tu-file');
 const async = require('async');
 const wordApi = require('./API/word-api.js');
+const tweeter = require('./API/ThirdParty/twitter-api.js');
 
 
 
 // TODO: command line argument for word
-var word = 'light';
+var word = 'shadow';
 
 getPhraseTemplate(function(){});
 
@@ -22,6 +23,11 @@ wordApi.getRhymes(word, function(rhymes) {
 	console.log('-------------------------');
 	console.log('-------------------------');
 
+	// Tweet it!
+	tweeter.tweet(rhymeyStory, function(error, resp) {
+		console.log('Tweeted It!');
+	});
+
 });
 
 wordApi.getDefinition(word, function(defn) {
@@ -30,6 +36,7 @@ wordApi.getDefinition(word, function(defn) {
 
 
 function generateRhymeyStory(word, rhymes) {
+
 	var intro = wordApi.getIntro(rhymes, _phraseTemplate.IntroPharases);
 	
 	var transition1 = wordApi.getTransition(rhymes, _phraseTemplate.Transitions);
@@ -39,7 +46,7 @@ function generateRhymeyStory(word, rhymes) {
 	var verse2 = wordApi.getVerse(rhymes, _phraseTemplate.Verses);
 
 	var rhymeytimey = util
-						.format("%s %s. \r\n %s \r\n %s.", intro, verse1, transition1, verse2);
+						.format("%s \r\n\r\n %s %s. \r\n %s \r\n %s.", word, intro, verse1, transition1, verse2);
 
 	return rhymeytimey;
 }
