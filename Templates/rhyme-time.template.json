@@ -1,50 +1,17 @@
 {
     "IntroPharases": [
-        {
-            "Phrase": "Once upon a time",
-            "TargetPartOfSpeech": "nope"
-        },
-        {
-            "Phrase": "There once was a [n]",
-            "TargetPartOfSpeech": "n"
-        },
-        {
-            "Phrase": "One day",
-            "TargetPartOfSpeech": "nope"
-        },
-        {
-            "Phrase": "Last night",
-            "TargetPartOfSpeech": "nope"
-        },
-        {
-            "Phrase": "Next week",
-            "TargetPartOfSpeech": "nope"
-        },
-        {
-            "Phrase": "There was a time when [n]",
-            "TargetPartOfSpeech": "n"
-        },
-        {
-            "Phrase": "Often times",
-            "TargetPartOfSpeech": "nope"
-        },
-        {
-            "Phrase": "Ocassionally",
-            "TargetPartOfSpeech": "nope"
-        },
-        {
-            "Phrase": "Every once and a while",
-            "TargetPartOfSpeech": "nope"
-        },
-        {
-            "Phrase": "Rarely does a [n]",
-            "TargetPartOfSpeech": "n"
-        },
-        {
-            "Phrase": "Sometimes I [v]",
-            "TargetPartOfSpeech": "v"
-        }
-    ],
+        "Once upon a time",        
+        "There once was a Bob",        
+        "One day",        
+        "Last night",        
+        "Next week",        
+        "There was a time when a dude",        
+        "Often times",        
+        "Ocassionally",        
+        "Every once and a while",        
+        "Rarely does a Splat the Cat",
+        "Sometimes The Cat in the Hat wondered if"
+   ],
     "Transitions": [
         "and that is why",
         "as such",
@@ -53,13 +20,16 @@
         "but, that's okay, because",
         "so",
         "consequently",
+        "and, as you'd exect,",
+        "they thought that",
+        "interestingly,"
     ],
     "Verses": [
-        "[noun] loved to [adv] [v]",
-        "[noun] loved to [v]",
-        "[noun] would always [adv] [v]",
-        "[noun] would [adj] [v]",
-        "[noun] would sometimes [adv] [v]",
+        "[n] loved to [adv] [v]",
+        "[n] loved to [v]",
+        "[n] would always [adv] [v]",
+        "[n] would [adj] [v]",
+        "[n] would sometimes [adv] [v]",
         "I loved to [adj] [v]",
         "I loved to [v]",
         "I would always [adj] [v]",
