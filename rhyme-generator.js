@@ -8,7 +8,7 @@ const tweeter = require('./API/ThirdParty/twitter-api.js');
 
 
 // TODO: command line argument for word
-var word = 'shadow';
+var word = 'back';
 
 getPhraseTemplate(function(){});
 
