@@ -1,0 +1,27 @@
+{
+  "name": "RhymeTime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rhyme-generator.js",
+  "dependencies": {
+    "async": "^2.4.1",
+    "datamuse": "^1.0.5",
+    "json-tu-file": "^1.4.2",
+    "lodash": "^4.17.4",
+    "random-int": "^1.0.0",
+    "twitter": "^1.7.1",
+    "webdict": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/SportyPants/rhymebot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/SportyPants/rhymebot#readme"
+}
