@@ -10,7 +10,9 @@
         "Ocassionally",        
         "Every once and a while",        
         "Rarely does a Splat the Cat",
-        "Sometimes The Cat in the Hat wondered if"
+        "Sometimes The Cat in the Hat wondered if",
+        "There once was a [n]",
+        "You might not know this,"
    ],
     "Transitions": [
         "and that is why",
@@ -22,14 +24,17 @@
         "consequently",
         "and, as you'd exect,",
         "they thought that",
-        "interestingly,"
+        "interestingly,",
+        "but here it goes",
+        "suddenly",
+        ",quite abruptly,"
     ],
     "Verses": [
         "[n] loved to [adv] [v]",
         "[n] loved to [v]",
         "[n] would always [adv] [v]",
         "[n] would [adj] [v]",
-        "[n] would sometimes [adv] [v]",
+        "[n] would sometimes [v]",
         "I loved to [adj] [v]",
         "I loved to [v]",
         "I would always [adj] [v]",
@@ -41,6 +46,8 @@
         "everyone would [adv] [v]",
         "everyone would sometimes [adv] [v]",
         "They really ought to [v]",
-        "They probably ought to go to [n]"
+        "They probably ought to go to [n]",
+        "George likes to [v]",
+        "George likes to go to the [n]"
     ]
 }
