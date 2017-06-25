@@ -8,7 +8,7 @@ const tweeter = require('./API/ThirdParty/twitter-api.js');
 
 
 // TODO: command line argument for word
-var word = 'back';
+var word = 'neat';
 
 getPhraseTemplate(function(){});
 
@@ -55,7 +55,7 @@ function getPhraseTemplate(callback) {
     console.log('Initializing story phrases...........');
 
     // TODO: Make Config file a commandline argument
-    jsonFile.readFile('.\\Templates\\rhyme-time.template.json', function (err, data) {
+    jsonFile.readFile('./Templates/rhyme-time.template.json', function (err, data) {
         return handlePhraseTemplateLoaded(err, data, callback);
     });
 }
