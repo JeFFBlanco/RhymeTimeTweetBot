@@ -56,7 +56,7 @@ module.exports = {
 			rhyme = potentialRhymes[randoIndex];	
 		}
 
-		var rhymey = util.format('|%s|', rhyme.word);
+		var rhymey = util.format('*%s*', rhyme.word);
 		phrase = phrase.replace(targetPartOfSpeech, rhymey);
 
 		return phrase;

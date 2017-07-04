@@ -8,7 +8,7 @@ const tweeter = require('./API/ThirdParty/twitter-api.js');
 
 
 // TODO: command line argument for word
-var word = 'neat';
+var word = 'holiday';
 
 getPhraseTemplate(function(){});
 
@@ -25,7 +25,18 @@ wordApi.getRhymes(word, function(rhymes) {
 
 	// Tweet it!
 	tweeter.tweet(rhymeyStory, function(error, resp) {
-		console.log('Tweeted It!');
+		
+		if (error) {
+			console.log('Too Long a tweet probably...trying again');
+
+			var take2Rhyme = generateRhymeyStory(word, rhymes);
+			tweeter.tweet(take2Rhyme, function(error, resp) {
+				if (error) { console.log('still too long :(')}
+			});
+		}
+		else {
+			console.log('Tweeted It!');
+		}
 	});
 
 });
