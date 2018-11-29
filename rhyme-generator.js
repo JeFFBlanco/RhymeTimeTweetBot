@@ -25,7 +25,7 @@ wordApi.getRhymes(word, function(rhymes) {
 
 	// Tweet it!
 	tweeter.tweet(rhymeyStory, function(error, resp) {
-		
+
 		if (error) {
 			console.log('Too Long a tweet probably...trying again');
 
@@ -49,10 +49,10 @@ wordApi.getDefinition(word, function(defn) {
 function generateRhymeyStory(word, rhymes) {
 
 	var intro = wordApi.getIntro(rhymes, _phraseTemplate.IntroPharases);
-	
+
 	var transition1 = wordApi.getTransition(rhymes, _phraseTemplate.Transitions);
 	var verse1 = wordApi.getVerse(rhymes, _phraseTemplate.Verses);
-	
+
 	var transition2 = wordApi.getTransition(rhymes, _phraseTemplate.Transitions);
 	var verse2 = wordApi.getVerse(rhymes, _phraseTemplate.Verses);
 
