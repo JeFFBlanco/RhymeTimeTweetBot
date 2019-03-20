@@ -5,14 +5,12 @@ const async = require('async');
 const wordApi = require('./API/word-api.js');
 const tweeter = require('./API/ThirdParty/twitter-api.js');
 
-
-
 // TODO: command line argument for word
 var word = 'holiday';
 
-getPhraseTemplate(function(){});
+getPhraseTemplate(function () { });
 
-wordApi.getRhymes(word, function(rhymes) {
+wordApi.getRhymes(word, function (rhymes) {
 	console.log(util.format('Got some rhymes for %s', word));
 
 	var rhymeyStory = generateRhymeyStory(word, rhymes);
@@ -24,14 +22,14 @@ wordApi.getRhymes(word, function(rhymes) {
 	console.log('-------------------------');
 
 	// Tweet it!
-	tweeter.tweet(rhymeyStory, function(error, resp) {
+	tweeter.tweet(rhymeyStory, function (error, resp) {
 
 		if (error) {
 			console.log('Too Long a tweet probably...trying again');
 
 			var take2Rhyme = generateRhymeyStory(word, rhymes);
-			tweeter.tweet(take2Rhyme, function(error, resp) {
-				if (error) { console.log('still too long :(')}
+			tweeter.tweet(take2Rhyme, function (error, resp) {
+				if (error) { console.log('still too long :(') }
 			});
 		}
 		else {
@@ -41,10 +39,9 @@ wordApi.getRhymes(word, function(rhymes) {
 
 });
 
-wordApi.getDefinition(word, function(defn) {
+wordApi.getDefinition(word, function (defn) {
 	console.log(util.format("Got defintion for %s.  Part of Speech is '%s'", word, defn.type));
 });
-
 
 function generateRhymeyStory(word, rhymes) {
 
@@ -57,18 +54,18 @@ function generateRhymeyStory(word, rhymes) {
 	var verse2 = wordApi.getVerse(rhymes, _phraseTemplate.Verses);
 
 	var rhymeytimey = util
-						.format("%s \r\n\r\n %s %s. \r\n %s \r\n %s.", word, intro, verse1, transition1, verse2);
+		.format("%s \r\n\r\n %s %s. \r\n %s \r\n %s.", word, intro, verse1, transition1, verse2);
 
 	return rhymeytimey;
 }
 
 function getPhraseTemplate(callback) {
-    console.log('Initializing story phrases...........');
+	console.log('Initializing story phrases...........');
 
-    // TODO: Make Config file a commandline argument
-    jsonFile.readFile('./Templates/rhyme-time.template.json', function (err, data) {
-        return handlePhraseTemplateLoaded(err, data, callback);
-    });
+	// TODO: Make Config file a commandline argument
+	jsonFile.readFile('./Templates/rhyme-time.template.json', function (err, data) {
+		return handlePhraseTemplateLoaded(err, data, callback);
+	});
 }
 
 function handlePhraseTemplateLoaded(err, data, callback) {
