@@ -23,18 +23,7 @@ wordApi.getRhymes(word, function (rhymes) {
 
 	// Tweet it!
 	tweeter.tweet(rhymeyStory, function (error, resp) {
-
-		if (error) {
-			console.log('Too Long a tweet probably...trying again');
-
-			var take2Rhyme = generateRhymeyStory(word, rhymes);
-			tweeter.tweet(take2Rhyme, function (error, resp) {
-				if (error) { console.log('still too long :(') }
-			});
-		}
-		else {
-			console.log('Tweeted It!');
-		}
+		console.log("Donezo!");
 	});
 
 });
